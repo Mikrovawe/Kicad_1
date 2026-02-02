@@ -58,7 +58,24 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "clearance|124254088|55120800|5620a401-5b24-4924-8d9f-7d35bce26cb6|90cf393e-ad9a-42f2-9cd7-f3077cc67a54",
+          ""
+        ],
+        [
+          "clearance|157480000|91624000|41bf9bc9-8112-4ed4-ae76-fdcbf8857635|57ac5c6d-9e4a-4f5a-8b62-5147d1d552fe",
+          ""
+        ],
+        [
+          "clearance|183623600|80050400|83c3b617-057e-4f50-be89-0ec037583ce4|85393c82-b682-420f-86a1-927aff57a82d",
+          ""
+        ],
+        [
+          "clearance|183638600|78790400|83c3b617-057e-4f50-be89-0ec037583ce4|1bc214a0-db80-45dd-b98f-87277bfecc29",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -493,7 +510,8 @@
     },
     "net_colors": {
       "+15V": "rgb(255, 10, 17)",
-      "-15V": "rgb(74, 255, 0)"
+      "-15V": "rgb(0, 28, 255)",
+      "GND": "rgb(50, 255, 0)"
     },
     "netclass_assignments": null,
     "netclass_patterns": []

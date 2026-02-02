@@ -2917,16 +2917,16 @@
 		(uuid "4204418d-28c6-47d5-ba52-0a367c3389a5")
 	)
 	(junction
+		(at 261.62 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "450ddc18-53ec-4842-83f7-3c633d228c68")
+	)
+	(junction
 		(at 88.9 172.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4bbbefc6-ce07-4188-b4e1-06a8bc5bb318")
-	)
-	(junction
-		(at 261.62 123.19)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4c497bdd-4a0f-406b-8bff-cffe8d811eae")
 	)
 	(junction
 		(at 49.53 172.72)
@@ -4158,16 +4158,6 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 123.19) (xy 261.62 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a6e1ccd0-cba2-4492-9bee-2ab6eb50cb3a")
-	)
-	(wire
-		(pts
 			(xy 88.9 168.91) (xy 88.9 172.72)
 		)
 		(stroke
@@ -4205,6 +4195,16 @@
 			(type default)
 		)
 		(uuid "ade33a3d-506f-43df-98f3-cfb8937c29bd")
+	)
+	(wire
+		(pts
+			(xy 261.62 123.19) (xy 267.97 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b754a957-3bfb-4317-a4ee-eef160097691")
 	)
 	(wire
 		(pts
@@ -4388,7 +4388,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 125.73) (xy 261.62 125.73)
+			(xy 261.62 125.73) (xy 267.97 125.73)
 		)
 		(stroke
 			(width 0)
@@ -4596,16 +4596,6 @@
 		)
 		(uuid "0a2cebc3-b252-49b9-be1e-664725afdcf3")
 	)
-	(label "Pin_2"
-		(at 266.7 125.73 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "0d5c215e-18d0-4fff-986a-0497254e2484")
-	)
 	(label "Pin_3"
 		(at 41.91 175.26 180)
 		(effects
@@ -4625,16 +4615,6 @@
 			(justify right bottom)
 		)
 		(uuid "55c81188-7736-4cfc-bb57-eb30ca2e7b5e")
-	)
-	(label "Pin_1"
-		(at 266.7 123.19 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "e110de74-91a7-4b4a-8e6f-b4d9a9886583")
 	)
 	(symbol
 		(lib_id "VAMK_R:10k")
@@ -5754,103 +5734,6 @@
 			(project ""
 				(path "/18748843-9013-4568-915a-7f405377b023"
 					(reference "R14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "VAMK_CON:ROW_VERT_1X2")
-		(at 271.78 123.19 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "33a3523e-b29d-4bd1-9182-54a39d2ebf95")
-		(property "Reference" "ROW_VERT/1X2"
-			(at 274.32 124.4599 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "ROW_VERT_1X2"
-			(at 287.02 120.65 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "VAMK_CON:ROW_VERT_1x2"
-			(at 287.02 123.19 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "\"\""
-			(at 287.02 125.73 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Plug, Vertical Row Header"
-			(at 271.78 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Storing Location" "3.10.1.X"
-			(at 287.02 128.27 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Order Number Elfa" "43-702-19"
-			(at 287.02 130.81 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Order Numer Farnell" "329-1807"
-			(at 287.02 133.35 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f9f06c2e-3711-4191-80ec-7133997e5afc")
-		)
-		(pin "2"
-			(uuid "d3772e62-c868-47a8-b38f-a23c5ce51fc0")
-		)
-		(instances
-			(project ""
-				(path "/18748843-9013-4568-915a-7f405377b023"
-					(reference "ROW_VERT/1X2")
 					(unit 1)
 				)
 			)
@@ -8600,6 +8483,103 @@
 			(project "kicad1"
 				(path "/18748843-9013-4568-915a-7f405377b023"
 					(reference "uA741CP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "VAMK_CON:ROW_VERT_1X2")
+		(at 273.05 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ab592656-f6af-438b-8b96-70d0101a17f0")
+		(property "Reference" "ROW_VERT/1X2"
+			(at 275.59 124.4599 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ROW_VERT_1X2"
+			(at 288.29 120.65 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "VAMK_CON:ROW_VERT_1x2"
+			(at 288.29 123.19 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "\"\""
+			(at 288.29 125.73 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Plug, Vertical Row Header"
+			(at 273.05 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Storing Location" "3.10.1.X"
+			(at 288.29 128.27 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Number Elfa" "43-702-19"
+			(at 288.29 130.81 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Numer Farnell" "329-1807"
+			(at 288.29 133.35 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "263af166-16f7-4679-97b2-bfd2a82948f1")
+		)
+		(pin "2"
+			(uuid "46948300-5837-4947-aaa5-69f96e0d5e97")
+		)
+		(instances
+			(project ""
+				(path "/18748843-9013-4568-915a-7f405377b023"
+					(reference "ROW_VERT/1X2")
 					(unit 1)
 				)
 			)
