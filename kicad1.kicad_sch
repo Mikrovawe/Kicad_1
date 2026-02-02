@@ -2743,8 +2743,8 @@
 		(uuid 6553d6e0-04c6-4d66-977a-c81eafe85780)
 	)
 	(rectangle
-		(start 17.78 13.97)
-		(end 88.9 59.69)
+		(start -53.34 13.97)
+		(end 17.78 59.69)
 		(stroke
 			(width 0)
 			(type default)
